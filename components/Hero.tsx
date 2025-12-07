@@ -55,7 +55,7 @@ export const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-lg md:text-2xl text-black max-w-2xl mx-auto mb-10 font-light leading-relaxed tracking-tight"
           >
-            Construa uma operação internacional, em dólar, com estrutura de holding e <span className="text-black font-normal">brand equity</span> real.
+            Construa uma operação internacional, em dólar, com posicionamento estratégico e <span className="text-black font-normal">brand equity</span> real.
           </motion.p>
 
           <motion.div
