@@ -10,15 +10,13 @@ export const Footer: React.FC = () => {
   alt="Logo"
   className="w-32 h-10 object-contain"
 />
-          <p className="text-xs text-black font-mono mt-4">© 2024 PROTOCOLO AVANÇADO</p>
+          <p className="text-xs text-black font-mono mt-4">© 2026 PROTOCOLO AVANÇADO</p>
         </div>
 
         <div className="flex gap-8 text-sm font-bold text-black">
           {/* Added hover drop-shadow */}
-          <a href="#" className="hover:text-electric hover:drop-shadow-[0_0_5px_rgba(0,82,255,1)] transition-colors">Termos</a>
-          <a href="#" className="hover:text-electric hover:drop-shadow-[0_0_5px_rgba(0,82,255,1)] transition-colors">Privacidade</a>
           <a href="#" className="hover:text-electric hover:drop-shadow-[0_0_5px_rgba(0,82,255,1)] transition-colors">Twitter</a>
-          <a href="#" className="hover:text-electric hover:drop-shadow-[0_0_5px_rgba(0,82,255,1)] transition-colors">Instagram</a>
+          <a href="https://www.instagram.com/gu.eth" className="hover:text-electric hover:drop-shadow-[0_0_5px_rgba(0,82,255,1)] transition-colors">Instagram</a>
         </div>
       </div>
     </footer>
