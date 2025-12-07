@@ -6,7 +6,7 @@ export const Footer: React.FC = () => {
       <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
         <div>
           <img
-  src="https://raw.githubusercontent.com/reverseeth/Aura/refs/heads/main/aura.svg"
+  src="https://raw.githubusercontent.com/reverseeth/Aura/refs/heads/main/components/aura.svg"
   alt="Logo"
   className="w-32 h-10 object-contain"
 />
