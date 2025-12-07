@@ -5,9 +5,11 @@ export const Footer: React.FC = () => {
     <footer className="bg-paper border-t border-gray-200 py-16">
       <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
         <div>
-          <div className="w-32 h-10 border border-black/10 rounded bg-black/5 flex items-center justify-center text-xs text-gray-500 tracking-widest uppercase">
-            [LOGO AREA]
-          </div>
+          <img
+  src="https://raw.githubusercontent.com/reverseeth/Aura/refs/heads/main/aura.svg"
+  alt="Logo"
+  className="w-32 h-10 object-contain"
+/>
           <p className="text-xs text-black font-mono mt-4">© 2024 PROTOCOLO AVANÇADO</p>
         </div>
 
