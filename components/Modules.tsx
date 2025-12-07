@@ -102,12 +102,12 @@ export const Modules: React.FC = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8 border-b border-white/10 pb-10">
           <div>
             <div className="flex items-center gap-3 mb-6">
-               <div className="w-8 h-[1px] bg-electric"></div>
+               {/* Added neon shadow */}
+               <div className="w-8 h-[1px] bg-electric shadow-[0_0_10px_#0052ff]"></div>
                <span className="text-white font-medium tracking-[0.2em] text-[10px] uppercase">
                  O Arsenal Completo
                </span>
             </div>
-            {/* Standardized size and leading to match BrutalTruth/Hero */}
             <h3 className="text-5xl md:text-7xl font-light tracking-tighter text-white leading-[1.05]">
               Currículo <br /><span className="serif-italic text-white text-[1.0em]">Operacional.</span>
             </h3>
@@ -175,7 +175,8 @@ export const Modules: React.FC = () => {
               <div className="space-y-4">
                 {selectedModule.details.map((detail, idx) => (
                   <div key={idx} className="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-white/5">
-                    <CheckCircle2 size={18} className="text-electric mt-0.5 shrink-0" />
+                    {/* Added neon drop-shadow */}
+                    <CheckCircle2 size={18} className="text-electric mt-0.5 shrink-0 drop-shadow-[0_0_8px_rgba(0,82,255,0.8)]" />
                     <span className="text-sm text-white font-light">{detail}</span>
                   </div>
                 ))}
@@ -221,7 +222,8 @@ const ModuleCard: React.FC<ModuleCardProps> = ({ data, onClick }) => (
         {data.title}
       </h4>
     </div>
-    <div className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center text-white group-hover:bg-electric group-hover:text-white transition-all duration-300">
+    {/* Added neon shadow on hover */}
+    <div className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center text-white group-hover:bg-electric group-hover:text-white transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(0,82,255,0.6)]">
         <ArrowUpRight size={14} />
     </div>
   </motion.div>

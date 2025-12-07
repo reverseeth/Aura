@@ -22,13 +22,13 @@ export const Apply: React.FC = () => {
               
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-8">
-                   <div className="w-1.5 h-1.5 rounded-full bg-electric animate-pulse" />
+                   {/* Added shadow to dot */}
+                   <div className="w-1.5 h-1.5 rounded-full bg-electric animate-pulse shadow-[0_0_8px_#0052ff]" />
                    <span className="text-[10px] font-bold text-black uppercase tracking-[0.2em]">Application Open</span>
                 </div>
                 
                 <h2 className="text-5xl md:text-7xl font-light tracking-tighter text-black mb-6 leading-[1]">
                   Pronto para <br />
-                  {/* Harmonized Serif Size */}
                   <span className="serif-italic text-black text-[1.0em]">ascender?</span>
                 </h2>
                 
@@ -73,7 +73,8 @@ export const Apply: React.FC = () => {
                           </div>
                        </div>
                        
-                       <button className="w-full bg-electric hover:bg-white hover:text-black text-white py-4 rounded-full font-medium text-sm uppercase tracking-widest transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl">
+                       {/* Added shadow to button */}
+                       <button className="w-full bg-electric hover:bg-white hover:text-black text-white py-4 rounded-full font-medium text-sm uppercase tracking-widest transition-all duration-300 flex items-center justify-center gap-3 shadow-[0_0_25px_rgba(0,82,255,0.6)] hover:shadow-xl">
                          Aplicar Agora
                          <ArrowRight size={14} />
                        </button>

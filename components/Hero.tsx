@@ -10,7 +10,19 @@ export const Hero: React.FC = () => {
       <div className="absolute inset-0 bg-[size:100px_100px] bg-grid-pattern-light opacity-30 mask-gradient-b"></div>
 
       <div className="container mx-auto px-6 relative z-10">
-        <div className="max-w-5xl mx-auto text-center">
+        <div className="max-w-5xl mx-auto text-center flex flex-col items-center">
+          
+          {/* Logo Area */}
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="mb-10"
+          >
+             <div className="w-32 h-10 border border-black/10 rounded bg-black/5 flex items-center justify-center text-xs text-gray-500 tracking-widest uppercase">
+                [LOGO AREA]
+             </div>
+          </motion.div>
           
           <motion.div
             initial={{ opacity: 0, y: 10 }}

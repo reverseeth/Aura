@@ -6,7 +6,8 @@ export const SocialProof: React.FC = () => {
     <section className="py-32 bg-white relative overflow-hidden">
         <div className="container mx-auto px-6">
             <div className="text-center mb-20">
-                <span className="text-[10px] font-bold tracking-[0.2em] uppercase text-electric mb-4 block">The Elite</span>
+                {/* Added drop-shadow */}
+                <span className="text-[10px] font-bold tracking-[0.2em] uppercase text-electric mb-4 block drop-shadow-[0_0_8px_rgba(0,82,255,0.6)]">The Elite</span>
                 <h3 className="text-5xl md:text-7xl font-light tracking-tighter text-black">
                     Resultados que <br/> <span className="serif-italic text-[1.0em]">falam por si.</span>
                 </h3>

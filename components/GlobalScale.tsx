@@ -15,7 +15,8 @@ export const GlobalScale: React.FC = () => {
             viewport={{ once: true }}
             className="flex justify-center mb-6"
           >
-             <span className="inline-block px-3 py-1 rounded-full bg-electric/5 text-electric text-[10px] font-semibold tracking-[0.2em] uppercase border border-electric/10">
+             {/* Added shadow */}
+             <span className="inline-block px-3 py-1 rounded-full bg-electric/5 text-electric text-[10px] font-semibold tracking-[0.2em] uppercase border border-electric/10 shadow-[0_0_15px_rgba(0,82,255,0.2)]">
                Nova Fronteira
              </span>
           </motion.div>
@@ -27,7 +28,6 @@ export const GlobalScale: React.FC = () => {
             className="text-5xl md:text-7xl font-light mb-8 tracking-tighter text-black leading-[1.1]"
           >
             Seu quintal é <br />
-            {/* Added text-[1.1em] for visual harmony */}
             <span className="serif-italic text-black text-[1.0em]">muito pequeno.</span>
           </motion.h2>
           
@@ -77,7 +77,8 @@ const ScaleCard = ({ icon, label, value, desc }: { icon: React.ReactNode, label:
     className="bg-white p-8 md:p-10 rounded-[2rem] shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.1)] transition-all duration-500 border border-gray-100 group"
   >
     <div className="flex justify-between items-start mb-10">
-      <div className="p-3 bg-gray-50 text-black rounded-full group-hover:bg-electric group-hover:text-white transition-colors duration-300">{icon}</div>
+      {/* Added neon shadow on hover */}
+      <div className="p-3 bg-gray-50 text-black rounded-full group-hover:bg-electric group-hover:text-white transition-colors duration-300 group-hover:shadow-[0_0_20px_rgba(0,82,255,0.6)]">{icon}</div>
       <span className="text-5xl md:text-6xl font-light tracking-tighter text-black">{value}</span>
     </div>
     <h3 className="text-lg font-medium mb-3 text-black tracking-tight">{label}</h3>
