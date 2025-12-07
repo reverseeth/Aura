@@ -9,14 +9,6 @@ import { Apply } from './components/Apply';
 import { Footer } from './components/Footer';
 import { motion, useScroll, useSpring } from 'framer-motion';
 
-export default function App() {
-  const { scrollYProgress } = useScroll();
-  const scaleX = useSpring(scrollYProgress, {
-    stiffness: 100,
-    damping: 30,
-    restDelta: 0.001
-  });
-
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
@@ -33,11 +25,6 @@ export default function App() {
 
   return (
     <div className="relative min-h-screen bg-paper text-slate-900 selection:bg-electric selection:text-white">
-      {/* Custom Scroll Progress Bar */}
-      <motion.div
-        className="fixed top-0 left-0 right-0 h-1 bg-electric origin-left z-50"
-        style={{ scaleX }}
-      />
 
       {/* Background Cursor Glow Effect */}
       <div 
