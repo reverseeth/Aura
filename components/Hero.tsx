@@ -19,9 +19,11 @@ export const Hero: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="mb-10"
           >
-             <div className="w-32 h-10 border border-black/10 rounded bg-black/5 flex items-center justify-center text-xs text-gray-500 tracking-widest uppercase">
-                [LOGO AREA]
-             </div>
+             <img
+  src="https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/aura.svg"
+  alt="Logo"
+  className="w-32 h-10 object-contain"
+/>
           </motion.div>
           
           <motion.div
