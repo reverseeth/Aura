@@ -34,7 +34,7 @@ export const Hero: React.FC = () => {
           >
             <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gray-50 border border-gray-100 text-[10px] font-medium uppercase tracking-[0.2em] text-black">
               <span className="w-1.5 h-1.5 rounded-full bg-electric shadow-[0_0_8px_#0052ff]" />
-              Mentoria V.4.0
+              Aura V.4.0
             </span>
           </motion.div>
 
