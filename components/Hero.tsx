@@ -20,7 +20,7 @@ export const Hero: React.FC = () => {
             className="mb-10"
           >
              <img
-  src="https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/aura.svg"
+  src="https://raw.githubusercontent.com/reverseeth/Aura/refs/heads/main/aura.svg"
   alt="Logo"
   className="w-32 h-10 object-contain"
 />
