@@ -44,12 +44,18 @@ export const BrutalTruth: React.FC = () => {
               <div className="border-l border-electric/30 pl-6 py-1">
                 {/* Changed to standard italic (sans-serif) as requested */}
                 <p className="text-2xl text-white italic leading-tight">
-                  "Você está exatamente onde deveria estar."
+                  "Você não chegou aqui por acaso."
                 </p>
               </div>
 
               <p>
-                Todo “conteúdo avançado” que você consumiu até agora tem o mesmo problema: ele te diz <b>O QUE fazer</b>… mas nunca te mostra <b>COMO pensar</b>. E pensar errado é o motivo pelo qual você erra o alvo antes mesmo de puxar o gatilho, ignora os princípios que realmente movem o dinheiro, procura “o anúncio que funciona” sem entender a consciência do seu avatar, continua tentando escalar sem saber o que realmente está causando suas próprias conversões, nunca construiu um mecanismo que diferencie você da multidão. Resultado: você até se movimenta, mas não progride.
+                Todo “conteúdo avançado” que você consumiu até agora tem o mesmo problema: ele te diz <b>O QUE fazer</b>… mas nunca te mostra <b>COMO pensar</b>.
+                </p>
+                <p>
+                E pensar errado é o motivo pelo qual você erra o alvo antes mesmo de puxar o gatilho, ignora os princípios que realmente movem o dinheiro, procura “o anúncio que funciona” sem entender a consciência do seu avatar, continua tentando escalar sem saber o que realmente está causando suas próprias conversões, nunca construiu um mecanismo que diferencie você da multidão.
+                </p>
+                    <p>
+                Resultado: você até se movimenta, mas não progride.
               </p>
             </div>
           </motion.div>
