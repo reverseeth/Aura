@@ -35,18 +35,18 @@ export const BrutalTruth: React.FC = () => {
             
             <div className="space-y-8 text-white text-lg leading-relaxed font-light">
               <p>
-                O e-commerce amador morreu. Se você ainda procura o "produto vencedor" no AliExpress para vender com uma loja genérica, você já está fora do jogo.
+                Você não está perdendo por falta de conhecimento. Está perdendo por falta de precisão. O e-commerce se tornou um lugar barulhento demais. Todo mundo sabe alguma coisa. Ninguém sabe o suficiente. E a maioria dos players passa a vida colecionando informação… mas continua tomando decisões como quem nunca viu o jogo real.
               </p>
               
               <div className="border-l border-electric/30 pl-6 py-1">
                 {/* Changed to standard italic (sans-serif) as requested */}
                 <p className="text-2xl text-white italic leading-tight">
-                  "O mercado não tolera mediocridade."
+                  "Você está exatamente onde deveria estar."
                 </p>
               </div>
 
               <p>
-                Grandes players globais usam IA para criativos, têm holdings em Delaware para eficiência fiscal e compram tráfego com inteligência de dados. É contra eles que você luta.
+                Todo “conteúdo avançado” que você consumiu até agora tem o mesmo problema: ele te diz o que fazer… mas nunca te mostra como pensar. E pensar errado é o motivo pelo qual você erra o alvo antes mesmo de puxar o gatilho, ignora os princípios que realmente movem o dinheiro, procura “o anúncio que funciona” sem entender a consciência do seu avatar, continua tentando escalar sem saber o que realmente está causando suas próprias conversões, nunca construiu um mecanismo que diferencie você da multidão. Resultado: você até se movimenta, mas não progride.
               </p>
             </div>
           </motion.div>
