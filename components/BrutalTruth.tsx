@@ -46,7 +46,7 @@ export const BrutalTruth: React.FC = () => {
               </div>
 
               <p>
-                Todo “conteúdo avançado” que você consumiu até agora tem o mesmo problema: ele te diz o que fazer… mas nunca te mostra como pensar. E pensar errado é o motivo pelo qual você erra o alvo antes mesmo de puxar o gatilho, ignora os princípios que realmente movem o dinheiro, procura “o anúncio que funciona” sem entender a consciência do seu avatar, continua tentando escalar sem saber o que realmente está causando suas próprias conversões, nunca construiu um mecanismo que diferencie você da multidão. Resultado: você até se movimenta, mas não progride.
+                Todo “conteúdo avançado” que você consumiu até agora tem o mesmo problema: ele te diz <b>O QUE fazer</b>… mas nunca te mostra <b>COMO pensar</b>. E pensar errado é o motivo pelo qual você erra o alvo antes mesmo de puxar o gatilho, ignora os princípios que realmente movem o dinheiro, procura “o anúncio que funciona” sem entender a consciência do seu avatar, continua tentando escalar sem saber o que realmente está causando suas próprias conversões, nunca construiu um mecanismo que diferencie você da multidão. Resultado: você até se movimenta, mas não progride.
               </p>
             </div>
           </motion.div>
