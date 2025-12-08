@@ -35,7 +35,8 @@ export const BrutalTruth: React.FC = () => {
             
             <div className="space-y-8 text-white text-lg leading-relaxed font-light">
               <p>
-                Você não está perdendo por falta de conhecimento. Está perdendo por falta de precisão. O e-commerce se tornou um lugar barulhento demais. Todo mundo sabe alguma coisa. Ninguém sabe o suficiente. E a maioria dos players passa a vida colecionando informação… mas continua tomando decisões como quem nunca viu o jogo real.
+                Você não está perdendo por falta de conhecimento. Está perdendo por falta de precisão. O e-commerce se tornou um lugar barulhento demais.
+                Todo mundo sabe alguma coisa. Ninguém sabe o suficiente. E a maioria dos players passa a vida colecionando informação… mas continua tomando decisões como quem nunca viu o jogo real.
               </p>
               
               <div className="border-l border-electric/30 pl-6 py-1">
