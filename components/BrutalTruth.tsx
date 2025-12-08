@@ -41,7 +41,7 @@ export const BrutalTruth: React.FC = () => {
               <div className="border-l border-electric/30 pl-6 py-1">
                 {/* Changed to standard italic (sans-serif) as requested */}
                 <p className="text-2xl text-white italic leading-tight">
-                  "Você <b>não</b> chegou aqui por acaso."
+                  "Você é aquilo em que pensa. Tudo o que você pensa, você se torna. Pensamentos viram ações. Ações viram comportamentos. Comportamentos viram estilo de vida. Estilo de vida determina seu destino."
                 </p>
               </div>
               
