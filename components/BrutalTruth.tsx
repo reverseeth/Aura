@@ -35,16 +35,16 @@ export const BrutalTruth: React.FC = () => {
             
             <div className="space-y-8 text-white text-lg leading-relaxed font-light">
               <p>
-                Você não está perdendo por falta de conhecimento. Está perdendo por falta de precisão. O e-commerce se tornou um lugar barulhento demais.
+                Você não está perdendo por falta de conhecimento. Está perdendo por <b>falta de precisão</b>. O e-commerce se tornou um lugar barulhento demais.
               </p>
                 <p>
-                  Todo mundo sabe alguma coisa. Ninguém sabe o suficiente. E a maioria dos players passa a vida colecionando informação… mas continua tomando decisões como quem nunca viu o jogo real.
+                  Todo mundo sabe alguma coisa. Ninguém sabe o suficiente. E a maioria dos players passa a vida colecionando informação… mas continua tomando decisões como quem <b>nunca viu o jogo real</b>.
               </p>
               
               <div className="border-l border-electric/30 pl-6 py-1">
                 {/* Changed to standard italic (sans-serif) as requested */}
                 <p className="text-2xl text-white italic leading-tight">
-                  "Você não chegou aqui por acaso."
+                  "Você <b>não</b> chegou aqui por acaso."
                 </p>
               </div>
 
@@ -55,7 +55,7 @@ export const BrutalTruth: React.FC = () => {
                 E pensar errado é o motivo pelo qual você erra o alvo antes mesmo de puxar o gatilho, ignora os princípios que realmente movem o dinheiro, procura “o anúncio que funciona” sem entender a consciência do seu avatar, continua tentando escalar sem saber o que realmente está causando suas próprias conversões, nunca construiu um mecanismo que diferencie você da multidão.
                 </p>
                     <p>
-                Resultado: você até se movimenta, mas não progride.
+                Resultado: você até se movimenta, mas <b>não progride</b>.
               </p>
             </div>
           </motion.div>
