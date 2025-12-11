@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { TrendingUp, FileText, Package, Globe } from 'lucide-react';
+import { TrendingUp, FileText, Package, Globe, ArrowRight } from 'lucide-react';
 
 export const BrutalTruth: React.FC = () => {
   return (
@@ -24,31 +24,37 @@ export const BrutalTruth: React.FC = () => {
           >
             <div className="flex items-center gap-3 mb-8">
               {/* Added neon shadow */}
-              <div className="w-8 h-[1px] bg-electric/50 shadow-[0_0_10px_#0052ff]"></div>
+              <div className="w-8 h-[1px] bg-electric shadow-[0_0_10px_#0052ff]"></div>
               <span className="text-white font-mono text-[10px] tracking-[0.2em] uppercase">Realidade de Mercado</span>
             </div>
             
-            <h2 className="text-5xl md:text-7xl font-light mb-10 leading-[1.05] tracking-tighter">
+            <h2 className="text-5xl md:text-7xl font-light mb-10 leading-[1.05] tracking-tighter text-white">
               A maioria <br />
               vai <span className="serif-italic text-white text-[1.0em]">falhar.</span>
             </h2>
             
             <div className="space-y-8 text-white text-lg leading-relaxed font-light">
-              <p>
-                Todo “conteúdo avançado” que você consumiu até agora tem o mesmo problema: ele te diz <b>O QUE fazer</b>… mas nunca te mostra <b>COMO pensar</b>.
+              <p className="text-white">
+                Todo "conteúdo avançado" que você consumiu até agora tem o mesmo problema: ele te diz <span className="font-bold text-white">O QUE</span> fazer… mas nunca te mostra <span className="font-bold text-white">COMO</span> pensar.
               </p>
               
-              <div className="border-l border-electric/30 pl-6 py-1">
-                {/* Changed to standard italic (sans-serif) as requested */}
-                <p className="text-2xl text-white italic leading-tight">
-                  "Pensamentos levam a ações, ações levam a comportamentos, comportamentos levam a estilo de vida e o estilo de vida determina o seu destino."
+              <div className="border-l-2 border-electric pl-6 py-2 my-6">
+                <p className="text-xl md:text-2xl text-white serif-italic leading-tight">
+                  "Amadores caçam 'produtos vencedores'. A Elite constrói ecossistemas de marca que tornam a venda inevitável."
                 </p>
               </div>
-              
-                <p>
-                E pensar errado é o motivo pelo qual você erra o alvo antes mesmo de puxar o gatilho, ignora os princípios que realmente movem o dinheiro, procura “o anúncio que funciona” sem entender a consciência do seu avatar, continua tentando escalar sem saber o que realmente está causando suas próprias conversões, nunca construiu um mecanismo que diferencie você da multidão.
-                </p>
-              
+
+              <div>
+                <p className="mb-4 text-white text-sm uppercase tracking-widest font-light">E a visão de curto prazo é o motivo pelo qual você:</p>
+                {/* Added padding-left for better hierarchy and alignment */}
+                <ul className="space-y-3 pl-4">
+                  <ListItem text="Erra o alvo antes mesmo de puxar o gatilho." />
+                  <ListItem text="Ignora os princípios que realmente movem o dinheiro." />
+                  <ListItem text="Procura 'o anúncio que funciona' sem entender a consciência do avatar." />
+                  <ListItem text="Continua tentando escalar sem saber o que causa suas conversões." />
+                  <ListItem text="Nunca construiu um mecanismo que te diferencie da multidão." />
+                </ul>
+              </div>
             </div>
           </motion.div>
 
@@ -81,19 +87,27 @@ export const BrutalTruth: React.FC = () => {
   );
 };
 
+const ListItem = ({ text }: { text: string }) => (
+  <li className="flex items-start gap-3 text-white text-base font-light">
+    {/* Adjusted margin-top to mt-2 for better optical center with text-base line-height */}
+    <div className="mt-2 w-1.5 h-1.5 rounded-full bg-electric shrink-0 shadow-[0_0_8px_#0052ff]" />
+    <span>{text}</span>
+  </li>
+);
+
 const TruthCard = ({ icon, title, text }: { icon: React.ReactNode, title: string, text: string }) => (
   <motion.div 
     initial={{ opacity: 0, y: 20 }}
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true }}
-    className="bg-white/[0.03] border border-white/[0.05] p-8 rounded-3xl hover:bg-white/[0.06] hover:border-white/10 transition-all duration-500 group"
+    className="bg-white/[0.03] border border-white/[0.1] p-8 rounded-3xl hover:bg-white/[0.06] hover:border-white/20 transition-all duration-500 group"
   >
     <div className="flex items-center gap-4 mb-4">
         {/* Added neon shadow on hover */}
-        <div className="p-2 bg-white/5 rounded-full text-electric group-hover:bg-electric group-hover:text-white transition-colors duration-300 group-hover:shadow-[0_0_20px_rgba(0,82,255,0.6)]">
+        <div className="p-2 bg-white/10 rounded-full text-electric group-hover:bg-electric group-hover:text-white transition-colors duration-300 group-hover:shadow-[0_0_20px_rgba(0,82,255,0.6)]">
           {icon}
         </div>
-        <h3 className="text-lg font-medium tracking-tight text-white">{title}</h3>
+        <h3 className="text-lg font-bold tracking-tight text-white">{title}</h3>
     </div>
     <p className="text-sm text-white leading-relaxed font-light">{text}</p>
   </motion.div>
