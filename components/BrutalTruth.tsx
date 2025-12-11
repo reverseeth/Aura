@@ -38,9 +38,9 @@ export const BrutalTruth: React.FC = () => {
                 Todo "conteúdo avançado" que você consumiu até agora tem o mesmo problema: ele te diz <span className="font-bold text-white">O QUE</span> fazer… mas nunca te mostra <span className="font-bold text-white">COMO</span> pensar.
               </p>
               
-              <div className="border-l-[1.5px] border-electric pl-6 py-2 my-6">
-                <p className="text-xl md:text-2xl text-white serif-italic leading-tight">
-                  "Amadores caçam 'produtos vencedores'. A Elite constrói ecossistemas de marca que tornam a venda inevitável."
+              <div className="border-l-2 border-electric pl-6 py-2 my-6">
+                <p className="text-xl md:text-2xl text-white font-light leading-tight">
+                  "Amadores caçam 'produtos vencedores'. A Elite constrói <span className="serif-italic drop-shadow-[0_0_20px_rgba(255,255,255,0.5)]">ecossistemas</span> de marca DTC que tornam a venda <span className="serif-italic drop-shadow-[0_0_20px_rgba(255,255,255,0.5)]">inevitável.</span>"
                 </p>
               </div>
 
@@ -89,8 +89,8 @@ export const BrutalTruth: React.FC = () => {
 
 const ListItem = ({ text }: { text: string }) => (
   <li className="flex items-start gap-3 text-white text-base font-light">
-    {/* Adjusted margin-top to mt-2 for better optical center with text-base line-height */}
-    <div className="mt-2 w-1.5 h-1.5 rounded-full bg-electric shrink-0 shadow-[0_0_8px_#0052ff]" />
+    {/* Adjusted margin-top to mt-2.5 for better optical alignment with text-base */}
+    <div className="mt-2.5 w-1.5 h-1.5 rounded-full bg-electric shrink-0 shadow-[0_0_8px_#0052ff]" />
     <span>{text}</span>
   </li>
 );
