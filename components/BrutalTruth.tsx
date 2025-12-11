@@ -38,7 +38,7 @@ export const BrutalTruth: React.FC = () => {
                 Todo "conteúdo avançado" que você consumiu até agora tem o mesmo problema: ele te diz <span className="font-bold text-white">O QUE</span> fazer… mas nunca te mostra <span className="font-bold text-white">COMO</span> pensar.
               </p>
               
-              <div className="border-l-2 border-electric pl-6 py-2 my-6">
+              <div className="border-l-[1.5px] border-electric pl-6 py-2 my-6">
                 <p className="text-xl md:text-2xl text-white serif-italic leading-tight">
                   "Amadores caçam 'produtos vencedores'. A Elite constrói ecossistemas de marca que tornam a venda inevitável."
                 </p>
