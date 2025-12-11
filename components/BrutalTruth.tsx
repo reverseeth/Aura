@@ -12,7 +12,8 @@ export const BrutalTruth: React.FC = () => {
 
       <div className="container mx-auto px-6 md:px-12 relative z-10">
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
+        {/* Reduced gap on mobile from gap-20 to gap-10 */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-start">
           
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -40,7 +41,7 @@ export const BrutalTruth: React.FC = () => {
               
               <div className="border-l-[1px] border-electric pl-6 py-2 my-6">
                 <p className="text-xl md:text-2xl text-white font-light leading-tight">
-              "Amadores caçam 'produtos vencedores'. A Elite constrói <span className='serif-italic text-[1.05em]'>ecossistemas</span> de marca DTC que tornam a venda <span className='serif-italic text-[1.05em]'>inevitável.</span>"                </p>
+              "Amadores caçam 'produtos vencedores'. A Elite constrói <span className='serif-italic text-[1.05em] drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]'>ecossistemas</span> de marca DTC que tornam a venda <span className='serif-italic text-[1.05em] drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]'>inevitável.</span>"                </p>
               </div>
 
               <div>
@@ -57,7 +58,8 @@ export const BrutalTruth: React.FC = () => {
             </div>
           </motion.div>
 
-          <div className="grid grid-cols-1 gap-6 pt-10 lg:pt-0">
+          {/* Removed pt-10 to reduce vertical space on mobile */}
+          <div className="grid grid-cols-1 gap-6 pt-5 lg:pt-0">
              <TruthCard 
                icon={<TrendingUp size={20} />}
                title="Métricas de Vaidade"
