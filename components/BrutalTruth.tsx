@@ -58,6 +58,9 @@ export const BrutalTruth: React.FC = () => {
           </motion.div>
 
           <div className="grid grid-cols-1 gap-6 pt-10 lg:pt-0">
+            <style>.gap-20 {
+    gap: 1.5rem !important;
+}</style>
              <TruthCard 
                icon={<TrendingUp size={20} />}
                title="Métricas de Vaidade"
