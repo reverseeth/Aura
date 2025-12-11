@@ -40,7 +40,7 @@ export const BrutalTruth: React.FC = () => {
               
               <div className="border-l-[1px] border-electric pl-6 py-2 my-6">
                 <p className="text-xl md:text-2xl text-white font-light leading-tight">
-              "Amadores caçam 'produtos vencedores'. A Elite constrói <span className='serif-italic text-[1.1em]'>ecossistemas</span> de marca DTC que tornam a venda <span className='serif-italic text-[1.1em]'>inevitável.</span>"                </p>
+              "Amadores caçam 'produtos vencedores'. A Elite constrói <span className='serif-italic text-[1.05em]'>ecossistemas</span> de marca DTC que tornam a venda <span className='serif-italic text-[1.05em]'>inevitável.</span>"                </p>
               </div>
 
               <div>
