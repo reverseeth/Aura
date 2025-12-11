@@ -44,7 +44,7 @@ export const BrutalTruth: React.FC = () => {
               </div>
 
               <div>
-                <p className="mb-4 text-white text-sm uppercase tracking-widest font-light">E a visão de curto prazo é o motivo pelo qual você:</p>
+                <p className="mb-4 text-white text-sm uppercase tracking-widest font-light">E a visão de <b>curto prazo</b> é o motivo pelo qual você:</p>
                 {/* Added padding-left for better hierarchy and alignment */}
                 <ul className="space-y-3 pl-4">
                   <ListItem text="Erra o alvo antes mesmo de puxar o gatilho." />
