@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { DollarSign, Users, Globe2 } from 'lucide-react';
+import { DollarSign, Globe2, TrendingUp } from 'lucide-react';
 
 export const GlobalScale: React.FC = () => {
   return (
@@ -15,9 +15,8 @@ export const GlobalScale: React.FC = () => {
             viewport={{ once: true }}
             className="flex justify-center mb-6"
           >
-             {/* Added shadow */}
              <span className="inline-block px-3 py-1 rounded-full bg-electric/5 text-electric text-[10px] font-semibold tracking-[0.2em] uppercase border border-electric/10 shadow-[0_0_15px_rgba(0,82,255,0.2)]">
-               Nova Fronteira
+               GLOBAL
              </span>
           </motion.div>
           
@@ -27,8 +26,8 @@ export const GlobalScale: React.FC = () => {
             viewport={{ once: true }}
             className="text-5xl md:text-7xl font-light mb-8 tracking-tighter text-black leading-[1.1]"
           >
-            Seu quintal é <br />
-            <span className="serif-italic text-black text-[1.0em]">muito pequeno.</span>
+            Você está competindo <br />
+            <span className="serif-italic text-black text-[1.0em]">no mercado errado.</span>
           </motion.h2>
           
           <motion.p 
@@ -38,17 +37,16 @@ export const GlobalScale: React.FC = () => {
             transition={{ delay: 0.2 }}
             className="text-lg md:text-xl text-black font-light max-w-2xl mx-auto leading-relaxed tracking-tight"
           >
-            Pare de lutar por migalhas em mercados saturados. 
-            O verdadeiro dinheiro está em vender para quem gasta em Dólar, Euro e Libra.
+            Aqui você briga por margem de 15% com cliente que pesquisa preço em 5 sites. Lá fora o mesmo produto vende com margem de 50% pra quem paga sem pensar duas vezes. Saque em 48h. Logística de 72h. Ticket que paga CAC com sobra. 5x mais margem.
           </motion.p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <ScaleCard 
             icon={<DollarSign size={24} />}
-            label="Moeda Forte"
+            label="Margem"
             value="5x"
-            desc="Multiplique seu lucro líquido apenas trocando a moeda da transação. Venda o mesmo produto, lucre 5x mais."
+            desc="Ticket maior, CAC proporcional, e sobra dinheiro de verdade no fim do mês."
           />
           <ScaleCard 
             icon={<Globe2 size={24} />}
@@ -57,7 +55,7 @@ export const GlobalScale: React.FC = () => {
             desc="Países ao seu alcance. Com a estrutura certa de logística e gateways, o mundo inteiro é seu cliente."
           />
           <ScaleCard 
-            icon={<Users size={24} />}
+            icon={<TrendingUp size={24} />}
             label="Mercado"
             value="8 Bi"
             desc="Por que vender para 200 milhões se você pode vender para o mundo inteiro? A escala global é infinita."
@@ -77,7 +75,6 @@ const ScaleCard = ({ icon, label, value, desc }: { icon: React.ReactNode, label:
     className="bg-white p-8 md:p-10 rounded-[2rem] shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.1)] transition-all duration-500 border border-gray-100 group"
   >
     <div className="flex justify-between items-start mb-10">
-      {/* Added neon shadow on hover */}
       <div className="p-3 bg-gray-50 text-black rounded-full group-hover:bg-electric group-hover:text-white transition-colors duration-300 group-hover:shadow-[0_0_20px_rgba(0,82,255,0.6)]">{icon}</div>
       <span className="text-5xl md:text-6xl font-light tracking-tighter text-black">{value}</span>
     </div>
