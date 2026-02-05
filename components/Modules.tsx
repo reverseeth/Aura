@@ -6,75 +6,105 @@ import { ModuleItem } from '../types';
 const modulesData: ModuleItem[] = [
   {
     number: "01",
-    title: "Fundamentos & Mindset",
-    description: "Reprogramando o cérebro para operação global.",
-    details: ["O Novo Jogo do Ecom", "Mentalidade de 8 Dígitos", "Preparação Financeira", "Rotina de Alta Performance"]
+    title: "Fundamentos Operacionais",
+    description: "A base de toda operação de 8 dígitos.",
+    details: ["Brand building vs. dropshipping", "Criando sua LLC nos EUA", "Framework de feedback loops", "Roadmap de execução: 48h, 7 dias, 30 dias"]
   },
   {
     number: "02",
-    title: "Offshore LLC & Fiscal",
-    description: "Estrutura legal nos EUA e UK.",
-    details: ["Abertura de LLC em Wyoming", "EIN e Contas Bancárias (Mercury/Brex)", "Stripe Atlas vs Standard", "Compliance Fiscal"]
+    title: "Inteligência de Mercado",
+    description: "Mapeando onde o dinheiro realmente está.",
+    details: ["Market Desires: o que move a compra", "Market Sophistication", "Product Research avançado", "Usando Kalodata na prática"]
   },
   {
     number: "03",
-    title: "Infraestrutura & Loja",
-    description: "Setup de loja de alta conversão.",
-    details: ["Shopify Plus Setup", "Otimização de Velocidade (90+)", "Apps Essenciais (Stack Secreto)", "Checkout Personalizado"]
+    title: "Posicionamento Estratégico",
+    description: "A batalha pela mente do consumidor.",
+    details: ["Positioning framework", "Product/Market Awareness levels", "Competitor Research: extraindo claims", "Psychographic Research"]
   },
   {
     number: "04",
-    title: "Pesquisa & Produto",
-    description: "Minerando produtos vencedores.",
-    details: ["Espionagem de Ads Avançada", "Validação de Demanda", "Negociação com Fornecedores", "Logística Global"]
+    title: "Unique Mechanisms",
+    description: "O diferencial que torna a concorrência irrelevante.",
+    details: ["O que são Unique Mechanisms", "Ideação de UM com Claude", "Avaliação e validação de UMs", "Expansão de diferenciais"]
   },
   {
     number: "05",
-    title: "Engenharia de Avatar",
-    description: "Entendendo o cliente profundamente.",
-    details: ["Mapa de Empatia", "Dores e Desejos Viscerais", "Segmentação Psicográfica", "Criação de Personas"]
+    title: "Arquitetura de Avatar",
+    description: "Construindo o cliente ideal em 3 camadas.",
+    details: ["Entendendo seu produto profundamente", "Desire Dominante", "Core Avatars vs Sub Avatars", "New Identities na comunicação"]
   },
   {
     number: "06",
-    title: "Ofertas & AOV",
-    description: "Maximizando o valor por pedido.",
-    details: ["Bundles Irresistíveis", "Upsell, Downsell e Cross-sell", "Order Bumps", "Estratégia de Preço"]
+    title: "Fundamentos de Copywriting",
+    description: "Palavras que imprimem dinheiro.",
+    details: ["Headlines que vendem (Fórmulas)", "Lead types: as 12 formas de começar", "Bullets e fascinations irresistíveis", "Claude para copywriting: prompts elite"]
   },
   {
     number: "07",
-    title: "Copywriting Persuasivo",
-    description: "Palavras que vendem milhões.",
-    details: ["Headlines Hipnóticas", "Estrutura de VSL", "Páginas de Vendas (Landing Pages)", "Email Marketing Sequences"]
+    title: "Estratégia Criativa",
+    description: "Anúncios que dominam o leilão.",
+    details: ["Anatomia de anúncios vencedores", "Os 3 métodos de teste", "Roteiros para video ads e hooks", "Breakdowns de winning static ads"]
   },
   {
     number: "08",
-    title: "Criativos & UGC",
-    description: "Anúncios que param o scroll.",
-    details: ["Roteiros para UGC", "Edição Dinâmica (CapCut/Premiere)", "Hooks Virais", "Image Ads com IA"]
+    title: "Assets no Facebook",
+    description: "Estrutura anti-ban de guerra.",
+    details: ["Setup de assets anti-ban", "Aquecimento de Perfil e Página", "Verificação de BM Elite", "Setup de Pixel/Dataset perfeito"]
   },
   {
     number: "09",
-    title: "Meta Ads & Escala",
-    description: "Domínio total do tráfego pago.",
-    details: ["Estrutura de Campanha CBO/ABO", "Teste de Criativos", "Escala Horizontal e Vertical", "Retargeting Inteligente"]
+    title: "Media Buying",
+    description: "A ciência da escala vertical e horizontal.",
+    details: ["Estratégia completa de teste", "Como definir ROAS targets", "Escala Horizontal e Vertical", "Minimum daily spend framework"]
   },
   {
     number: "10",
-    title: "Data Science & KPIs",
-    description: "Decisões baseadas em dados.",
-    details: ["Google Analytics 4", "Cohorts & LTV", "Atribuição (TripleWhale)", "Dashboard Financeiro"]
+    title: "Dados e Atribuição",
+    description: "O fim do 'eu acho'. Decisões baseadas em números.",
+    details: ["Setup de tracking: pixel, server-side", "Wetracked & TripleWhale", "Dashboard operacional", "Métricas críticas de escala"]
   },
   {
     number: "11",
-    title: "Ops & Compliance",
-    description: "Operação à prova de falhas.",
-    details: ["Gestão de Chargebacks", "Atendimento ao Cliente (Zendesk)", "Automação de Processos", "Prevenção de Fraudes"]
+    title: "Sistemas de Aprendizado",
+    description: "Transformando perdas em lucro futuro.",
+    details: ["Como revisar ads perdedores", "Framework de 12 perguntas", "Extraindo ideias de ads vencedores", "Aplicação de learnings contínuos"]
   },
   {
     number: "12",
-    title: "Domínio & Consolidação",
-    description: "De loja para marca global.",
-    details: ["Branding de Longo Prazo", "Expansão de Canais (Google/TikTok)", "Influencer Marketing", "Exit Strategy"]
+    title: "Engenharia de Oferta",
+    description: "Ofertas que multiplicam o LTV.",
+    details: ["Psicologia de precificação", "Anchoring e decoy pricing", "Tipos de ofertas que convertem", "Cases de ofertas exponenciais"]
+  },
+  {
+    number: "13",
+    title: "Infraestrutura de Conversão",
+    description: "Páginas que não apenas informam, mas vendem.",
+    details: ["Advertorials: propósito e aplicação", "PDPs vencedoras (Breakdowns)", "Usando IA para criar PDPs", "Checkout optimization"]
+  },
+  {
+    number: "14",
+    title: "Maximização de AOV",
+    description: "Extraindo cada centavo do tráfego.",
+    details: ["Psicologia de Upsells", "Economia de funil", "Setup de Upsells com Claude", "Walkthroughs de funis vencedores"]
+  },
+  {
+    number: "15",
+    title: "Retenção e Email Marketing",
+    description: "Onde o lucro real é construído.",
+    details: ["Abandon Carts & Welcome Series", "Reorder & Winback flows", "Setup de Claude para Emails", "Promotional Sequences"]
+  },
+  {
+    number: "16",
+    title: "Operações e Escala",
+    description: "A máquina por trás do faturamento.",
+    details: ["Supply chain internacional", "Negociação avançada com fornecedores", "Gerenciando 3PL", "Estrutura de time e P&L"]
+  },
+  {
+    number: "17",
+    title: "Brand Equity e Crescimento",
+    description: "O exit de milhões de dólares.",
+    details: ["Construindo brand assets", "Content strategy além de paid ads", "Community building", "Exit Strategy: preparando a venda"]
   }
 ];
 
@@ -102,10 +132,9 @@ export const Modules: React.FC = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8 border-b border-white/10 pb-10">
           <div>
             <div className="flex items-center gap-3 mb-6">
-               {/* Added neon shadow */}
                <div className="w-8 h-[1px] bg-electric shadow-[0_0_10px_#0052ff]"></div>
                <span className="text-white font-medium tracking-[0.2em] text-[10px] uppercase">
-                 O Arsenal Completo
+                 O ARSENAL COMPLETO
                </span>
             </div>
             <h3 className="text-5xl md:text-7xl font-light tracking-tighter text-white leading-[1.05]">
@@ -135,12 +164,11 @@ export const Modules: React.FC = () => {
         
         <div className="mt-16 py-6 text-center">
              <p className="text-white text-sm font-light tracking-tight bg-white/5 inline-block px-6 py-3 rounded-full border border-white/10 backdrop-blur-sm">
-                 + Módulos Bônus sobre <span className="text-white font-medium">Inteligência Artificial Generativa</span>
+                 + Módulos Bônus sobre <span className="text-white font-medium">Inteligência Artificial</span>
              </p>
         </div>
       </div>
 
-      {/* MODAL */}
       <AnimatePresence>
         {selectedModule && (
           <>
@@ -175,7 +203,6 @@ export const Modules: React.FC = () => {
               <div className="space-y-4">
                 {selectedModule.details.map((detail, idx) => (
                   <div key={idx} className="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-white/5">
-                    {/* Added neon drop-shadow */}
                     <CheckCircle2 size={18} className="text-electric mt-0.5 shrink-0 drop-shadow-[0_0_8px_rgba(0,82,255,0.8)]" />
                     <span className="text-sm text-white font-light">{detail}</span>
                   </div>
@@ -222,7 +249,6 @@ const ModuleCard: React.FC<ModuleCardProps> = ({ data, onClick }) => (
         {data.title}
       </h4>
     </div>
-    {/* Added neon shadow on hover */}
     <div className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center text-white group-hover:bg-electric group-hover:text-white transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(0,82,255,0.6)]">
         <ArrowUpRight size={14} />
     </div>
