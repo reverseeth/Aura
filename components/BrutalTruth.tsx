@@ -34,7 +34,7 @@ export const BrutalTruth: React.FC = () => {
                 Todo conteúdo que você consumiu te ensinou <span className="font-bold text-white">O QUE</span> fazer. Nenhum te ensinou <span className="font-bold text-white">COMO</span> pensar. Por isso você depende de criativo viral, produto "validado" e sorte.
               </p>
               
-              <div className="border-l-[1px] border-electric pl-6 py-2 my-6">
+              <div className="border-l-[1px] border-white pl-6 py-2 my-6">
                 <p className="text-xl md:text-2xl text-white font-light leading-tight">
               "A diferença entre 200 criativos e 5 é saber o que faz seu avatar <span className='serif-italic'>sacar o cartão.</span>"                </p>
               </div>
