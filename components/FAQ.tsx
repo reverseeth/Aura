@@ -5,7 +5,7 @@ import { Plus } from 'lucide-react';
 const faqs = [
     {
         q: "Preciso saber inglês fluente?",
-        a: "Não. Estamos em 2026."
+        a: "Não. Estamos em 2026, é só usar AI."
     },
     {
         q: "Quanto preciso para investir?",
