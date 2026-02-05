@@ -16,7 +16,7 @@ export const GlobalScale: React.FC = () => {
             className="flex justify-center mb-6"
           >
              <span className="inline-block px-3 py-1 rounded-full bg-electric/5 text-electric text-[10px] font-semibold tracking-[0.2em] uppercase border border-electric/10 shadow-[0_0_15px_rgba(0,82,255,0.2)]">
-               GLOBAL
+               COORDENADAS
              </span>
           </motion.div>
           
