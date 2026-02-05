@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { TrendingUp, FileText, Package, Globe } from 'lucide-react';
+import { Store, Infinity, ShieldX, Crosshair } from 'lucide-react';
 
 export const BrutalTruth: React.FC = () => {
   return (
@@ -54,22 +54,22 @@ export const BrutalTruth: React.FC = () => {
 
           <div className="grid grid-cols-1 gap-6 pt-0 lg:pt-0">
              <TruthCard 
-               icon={<TrendingUp size={20} />}
+               icon={<Store size={20} />}
                title="Múltiplas Lojas"
                text='A "estratégia" de quem sabe que nenhuma delas vai durar.'
              />
              <TruthCard 
-               icon={<FileText size={20} />}
+               icon={<Infinity size={20} />}
                title="Teste Infinito"
                text="10 produtos por semana, 200 criativos, nenhum entendimento real do que funcionou ou por quê."
              />
              <TruthCard 
-               icon={<Package size={20} />}
+               icon={<ShieldX size={20} />}
                title="Operação Descartável"
                text="Um bloqueio de distância de perder tudo."
              />
              <TruthCard 
-                icon={<Globe size={20} />}
+                icon={<Crosshair size={20} />}
                 title="Fundamento Zero"
                 text="Avatar raso, sem mecanismo, sem leitura de mercado."
              />
