@@ -37,7 +37,7 @@ export const GlobalScale: React.FC = () => {
             transition={{ delay: 0.2 }}
             className="text-base md:text-lg text-gray-500 font-light max-w-2xl mx-auto leading-relaxed tracking-tight"
           >
-            Métricas reais de operações de alta performance. O e-commerce global não é uma aposta, é uma infraestrutura de arbitragem de valor.
+            Enquanto o mercado amador tenta "adivinhar" o próximo vencedor, a Aura constrói estruturas baseadas em fundamentos inegociáveis de lucro e previsibilidade.
           </motion.p>
         </div>
 
@@ -47,21 +47,21 @@ export const GlobalScale: React.FC = () => {
             icon={<TrendingUp size={24} />}
             label="Markup Estratégico"
             value="532%"
-            desc="Margens blindadas através de valor percebido. Em mercados de moeda forte, o markup agressivo permite lucros líquidos que absorvem qualquer variação de custo de aquisição."
+            desc="O lucro não está no produto, está na moeda. Vendendo para quem tem poder de compra real, você deixa de brigar por centavos e passa a ditar o preço de operações que ignoram a oscilação do custo de tráfego."
           />
           <ScaleCard 
             id="M-02"
             icon={<DollarSign size={24} />}
             label="Eficiência de Escala"
             value="4.2x"
-            desc="Eficiência matemática de retenção. Públicos qualificados com alto LTV permitem uma escala vertical onde o lucro é maximizado pela recorrência e ticket médio elevado."
+            desc="Escala não é sobre gastar mais, é sobre converter melhor. Operamos com precisão cirúrgica em audiências de alto LTV, onde cada dólar investido compra dados que se transformam em ativos de longo prazo."
           />
           <ScaleCard 
             id="M-03"
             icon={<Globe2 size={24} />}
             label="Liquidez Global"
             value="+340M"
-            desc="Acesso imediato a mercados de alta liquidez. Uma base de consumidores prontos para transacionar, eliminando o teto de faturamento imposto por economias limitadas."
+            desc="Vender para o mundo é remover o teto de vidro. Você sai de uma economia fechada e entra em um ecossistema de liquidez infinita, onde o seu limite de faturamento é apenas a sua capacidade de logística."
           />
         </div>
       </div>
