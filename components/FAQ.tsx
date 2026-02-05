@@ -5,19 +5,23 @@ import { Plus } from 'lucide-react';
 const faqs = [
     {
         q: "Preciso saber inglês fluente?",
-        a: "Não. Ensinamos como usar ferramentas de tradução e IA para operar em qualquer idioma sem precisar falar uma palavra."
+        a: "Não. Estamos em 2026."
     },
     {
         q: "Quanto preciso para investir?",
-        a: "Recomendamos um capital de giro inicial de pelo menos $500 a $1000 USD para testes de tráfego e estrutura."
+        a: "$1000, além da Aura. Não vou te ensinar a escalar com $200."
     },
     {
         q: "Serve para iniciantes?",
-        a: "Sim, mas a curva de aprendizado é íngreme. O conteúdo vai do zero absoluto até estratégias de escala de 7 dígitos."
+        a: "Não. O básico você aprende no YouTube, não sou sua babá."
     },
     {
-        q: "Tenho suporte?",
-        a: "Sim, acesso direto à comunidade Elite e calls quinzenais de Q&A."
+        q: "Por que é tão caro?",
+        a: "Pra você não entrar."
+    },
+    {
+        q: "Com quem vou poder falar?",
+        a: "Comigo no WhatsApp. E na Skool com quem já opera lá fora. O nível da conversa é outro. Ninguém ali está descobrindo o que é pixel."
     }
 ];
 
@@ -47,7 +51,6 @@ const FAQItem: React.FC<{ q: string, a: string }> = ({ q, a }) => {
                 className="w-full flex items-center justify-between p-6 text-left hover:bg-white/5 transition-colors"
             >
                 <span className="font-medium text-lg tracking-tight">{q}</span>
-                {/* Changed to text-white as requested */}
                 <Plus size={20} className={`text-white transition-transform duration-300 ${isOpen ? 'rotate-45' : ''}`} />
             </button>
             <AnimatePresence>
