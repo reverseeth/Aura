@@ -26,14 +26,13 @@ export const Hero: React.FC = () => {
 />
           </motion.div>
           
-          <motion.div
+<motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="flex justify-center mb-6"
           >
-            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gray-50/80 backdrop-blur-sm border border-gray-100 text-[10px] font-medium uppercase tracking-[0.2em] text-black">
-              <span className="w-1.5 h-1.5 rounded-full bg-electric shadow-[0_0_8px_#0052ff]" />
+            <span className="inline-block px-3 py-1 rounded-full bg-electric/5 text-electric text-[10px] font-semibold tracking-[0.2em] uppercase border border-electric/10 shadow-[0_0_15px_rgba(0,82,255,0.2)]">
               AURA V.4.0
             </span>
           </motion.div>
