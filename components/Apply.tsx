@@ -58,10 +58,12 @@ export const Apply: React.FC = () => {
                      <div className="w-full h-px bg-white/10"></div>
 
                      <div className="space-y-4 pt-2">
-                       <button className="w-full bg-electric hover:bg-white hover:text-black text-white py-4 rounded-full font-medium text-sm uppercase tracking-widest transition-all duration-300 flex items-center justify-center gap-3 shadow-[0_0_25px_rgba(0,82,255,0.6)] hover:shadow-xl">
-                         ALL IN
-                         <ArrowRight size={14} />
-                       </button>
+  <a href="https://form.typeform.com/to/T4jtDKjS" target="_blank" rel="noopener noreferrer">
+    <button className="w-full bg-electric hover:bg-white hover:text-black text-white py-4 rounded-full font-medium text-sm uppercase tracking-widest transition-all duration-300 flex items-center justify-center gap-3 shadow-[0_0_25px_rgba(0,82,255,0.6)] hover:shadow-xl">
+      ALL IN
+      <ArrowRight size={14} />
+    </button>
+  </a>
 
                        <div className="flex justify-center items-center gap-2 text-white/40 mt-2">
                           <Lock size={10} />
