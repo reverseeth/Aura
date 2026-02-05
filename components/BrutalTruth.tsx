@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { TrendingUp, FileText, Package, Globe, ArrowRight } from 'lucide-react';
+import { TrendingUp, FileText, Package, Globe } from 'lucide-react';
 
 export const BrutalTruth: React.FC = () => {
   return (
@@ -56,7 +56,7 @@ export const BrutalTruth: React.FC = () => {
              <TruthCard 
                icon={<TrendingUp size={20} />}
                title="Múltiplas Lojas"
-               text="A 'estratégia' de quem sabe que nenhuma delas vai durar. Você constrói castelos de areia enquanto nós construímos impérios."
+               text='A "estratégia" de quem sabe que nenhuma delas vai durar.'
              />
              <TruthCard 
                icon={<FileText size={20} />}
@@ -66,12 +66,12 @@ export const BrutalTruth: React.FC = () => {
              <TruthCard 
                icon={<Package size={20} />}
                title="Operação Descartável"
-               text="Um bloqueio de distância de perder tudo. Sem marca real, você é apenas um revendedor com data de validade."
+               text="Um bloqueio de distância de perder tudo."
              />
              <TruthCard 
                 icon={<Globe size={20} />}
                 title="Fundamento Zero"
-                text="Avatar raso, sem mecanismo, sem leitura de mercado. Você está apenas jogando dados e esperando o 6."
+                text="Avatar raso, sem mecanismo, sem leitura de mercado."
              />
           </div>
 
