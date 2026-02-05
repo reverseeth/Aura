@@ -24,8 +24,8 @@ export const SocialProof: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <StatCard 
                     val="$7.2M" 
-                    label="Faturamento Membros (2025)"
-                    sub="Receita gerada exclusivamente em operações internacionais."
+                    label="Faturamento dos Membros (2025)"
+                    sub="Receita gerada em operações internacionais."
                 />
                 <StatCard 
                     val="42" 
